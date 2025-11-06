@@ -253,9 +253,22 @@ Reset local DB (dev only):
 rm backend/db.sqlite3  # Windows: del backend\db.sqlite3
 python backend/manage.py migrate
 ```
+---
+
+## 💬 Contributors
+
+👨‍💻 **Developer:** Poojit Jagadeesh Nagaloti  
+📧 Email: [poojitnagaloti611@gmail.com](mailto:poojitnagaloti611@gmail.com)  
+🔗 [GitHub](https://github.com/mr-poojit) | [LinkedIn](https://www.linkedin.com/in/poojit-jagadeesh-nagaloti-a0553323b/)
 
 ---
 
 ## License
-MIT (for learning/demo purposes). Replace with your org’s license as needed.
+MIT (for learning/demo purposes). Replace with your org’s license as needed. 
+
+---
+
+> 💡 _“Build clean. Document well. Deliver excellence.”_ ✨
+
+
 
