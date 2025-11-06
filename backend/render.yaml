@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: bugreport-backend
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn bugtracker.wsgi:application
+    envVars:
+      - key: DEBUG
+        value: False
