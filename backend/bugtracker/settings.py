@@ -5,7 +5,7 @@ from datetime import timedelta
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv("SECRET_KEY", "dev-secret")
 DEBUG = os.getenv("DEBUG", "False") == "True"
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "*").split(",")
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "https://bug-reporting-system.vercel.app/","*").split(",")
 
 
 INSTALLED_APPS = [
